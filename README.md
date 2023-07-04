@@ -51,7 +51,7 @@ The results of the optimised model were compared against a baseline. This baseli
 
 
 
-![CVRP Routes](./cvrp-routes-costs)
+![CVRP Routes](./cvrp-routes-costs.png)
 
 Of note, the overall routes are identical for both minimising costs and emissions, suggesting that minimising one will minimise the other too. The reason for this is due to how the data was set up such that the emissions and cost matrices were set up in a similar fashion: scaled up by two constants, as outlined in section 2.0. Thus, the costs and emissions are proportional. As one increases so too does the other and minimising one, will also minimise the other (i.e., no obvious trade-off relationship). Hence, the routes chosen would be the same when minimising both emissions and costs. Improvements have been suggested in section 6.0 of the report.
 
