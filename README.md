@@ -37,7 +37,7 @@ Third, the data and assumptions were integrated into the optimisation framework 
 11. Binary decision variable, x
 
 ## Results and Discussion
-The results of the optimised model were compared against a baseline. This baseline was a greedy search such that at each neighbourhood node, we are looking for the cheapest unvisited neighbourhood node to visit next until we either violate the vehicular capacity constraint or have served all neighbourhoods. We found a savings of ~0.85% relative to the baseline for both costs and emissions. 
+The results of the optimised model were compared against a baseline. This baseline was a greedy search such that at each neighbourhood node, we are looking for the cheapest unvisited neighbourhood node to visit next until we either violate the vehicular capacity constraint or have served all neighbourhoods. We found a savings of ~0.85% relative to the baseline for both costs and emissions. The vehicle routes are shown in the figure below, with each colour representing a separate refuse vehicle.
 
 | Minimisation Objective: Cost | Baseline Model | Optimised Model |
 |-----------------------|----------------|-----------------|
@@ -48,8 +48,6 @@ The results of the optimised model were compared against a baseline. This baseli
 |----------------------------|----------------|-----------------|
 | Total Emissions [kg-eCO<sub>2</sub>]  | 8157.24        | 8099.04         |
 | Total Reduction [kg-eCO<sub>2</sub>]  |                | 58.20 (0.85%)   |
-
-
 
 ![CVRP Routes](./cvrp-routes-costs.png)
 
